@@ -85,7 +85,7 @@ makeBrowser().then(async (init) => {
             console.log({
                 symbol, 
                 old_fcfy: convPct(result.fcfy),
-                new_fcfy: convPct(result.fcfy * delta)
+                new_fcfy: convPct(result.fcfy / delta)
              })
           //if (res != "error") insertCluster(res, symbol)
         })
